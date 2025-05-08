@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .converter {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .converter h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .converter input,
+  .converter select,
+  .converter button {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  #result {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
